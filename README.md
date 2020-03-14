@@ -7,7 +7,7 @@ This plugin mainly builds upon the existing plugin availability_role. The intent
 Requirements
 ------------
 
-This plugin requires Moodle 3.8+
+This plugin requires Moodle 3.5+
 
 
 Motivation for this plugin
