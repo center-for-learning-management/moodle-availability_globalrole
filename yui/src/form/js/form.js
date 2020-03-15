@@ -23,7 +23,7 @@ M.availability_globalrole.form.initInner = function(roles) {
 
 M.availability_globalrole.form.getNode = function(json) {
     // Create HTML structure.
-    var html = '<label>' + M.util.get_string('title', 'availability_role') + ' ' +
+    var html = '<label>' + M.util.get_string('title', 'availability_globalrole') + ' ' +
             '<span class="availability-group">' +
             '<select name="id">' +
             '<option value="choose">' + M.util.get_string('choosedots', 'moodle') + '</option>';

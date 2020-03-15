@@ -140,11 +140,11 @@ class condition extends \core_availability\condition {
         $context = \context_course::instance($info->get_course()->id);
         $role = $DB->get_record('role', array('id' => $this->roleid));
         if (!$role) {
-            $missing = get_string('missing', 'availability_role');
-            return get_string($not ? 'requires_notrole' : 'requires_role', 'availability_role', $missing);
+            $missing = get_string('missing', 'availability_globalrole');
+            return get_string($not ? 'requires_notrole' : 'requires_role', 'availability_globalrole', $missing);
         } else {
             $name = role_get_name($role, $context);
-            return get_string($not ? 'requires_notrole' : 'requires_role', 'availability_role', $name);
+            return get_string($not ? 'requires_notrole' : 'requires_role', 'availability_globalrole', $name);
         }
     }
 

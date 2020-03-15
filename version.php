@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'availability_globalrole';
-$plugin->version = 2020031400;
-$plugin->release = '0.1';
+$plugin->version = 2020031500;
+$plugin->release = '1.0';
 $plugin->requires = 2018051700;
 $plugin->maturity = MATURITY_STABLE;

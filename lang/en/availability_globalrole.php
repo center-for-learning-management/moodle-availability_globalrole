@@ -26,9 +26,14 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['description'] = 'Check availability based on global roles.';
+$string['error_selectrole'] = 'You must select a role';
+$string['missing'] = '[Missing role]';
+
 $string['pluginname'] = 'Restriction by global role';
 $string['privacy:metadata'] = 'The Restriction by global role plugin does not store any personal data.';
 
+$string['requires_role'] = 'You are a(n) <em>{$a}</em>';
+$string['requires_notrole'] = 'You are not a(n) <em>{$a}</em>';
 $string['setting:roles'] = 'Supported roles';
 $string['setting:roles:description'] = 'Specify which global roles are selectable by users to restrict access.';
 $string['title'] = 'Global role';

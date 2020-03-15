@@ -26,7 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['description'] = 'Eine globale Rolle als Voraussetzung einstellen.';
+$string['error_selectrole'] = 'Sie müssen eine Rolle wählen';
+$string['missing'] = '[Rolle fehlt]';
+
 $string['pluginname'] = 'Voraussetzung Globale Rolle';
+$string['requires_role'] = 'Verfügbar für: <em>{$a}</em>';
+$string['requires_notrole'] = 'Sie sind nicht: <em>{$a}</em>';
 
 $string['setting:roles'] = 'Unterstützte Rollen';
 $string['setting:roles:description'] = 'Bitte legen Sie fest, welche globalen Rollen zur Auswahl stehen.';
